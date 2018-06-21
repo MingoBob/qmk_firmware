@@ -45,13 +45,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* number of backlight levels */
 // #define BACKLIGHT_LEVELS 3
 
-/* mouse config */
-#define MOUSEKEY_INTERVAL       20
-#define MOUSEKEY_DELAY          0
-#define MOUSEKEY_TIME_TO_MAX    60
-#define MOUSEKEY_MAX_SPEED      7
-#define MOUSEKEY_WHEEL_DELAY 0
-
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCING_DELAY 5
 
@@ -93,5 +86,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define NO_ACTION_MACRO
 //#define NO_ACTION_FUNCTION
 
+#define AUTO_SHIFT_TIMEOUT 90
+#define TAPPING_TERM       120
+#define PERMISSIVE_HOLD
+
+// Mouse key defines
+#define MOUSEKEY_DELAY     10
+#define MOUSEKEY_INTERVAL  10
+#define MOUSEKEY_MAX_SPEED 10
+#define MOUSEKEY_TIME_TO_MAX 50
 
 #endif
